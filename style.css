@@ -228,8 +228,8 @@ header .menu nav a:hover {
 #portfolio .textbox .imgbox .plusbox {
   background-color: rgba(255, 200, 0, 0.9);
   position: absolute;
-  width: 26%;
-  height: 40%;
+  width: 357px;
+  height: 268px;
   cursor: pointer;
   opacity: 0;
   transition: 0.5s;
@@ -513,8 +513,8 @@ header .menu nav a:hover {
   background-color: white;
   margin-bottom: 23px;
   border: 1px solid #ced4da;
-  width: 547px;
-  height: 65px;
+  width: 447px;
+  height: 59px;
   font-size: 20px;
   font-weight: 700;
   opacity: 0.9;
