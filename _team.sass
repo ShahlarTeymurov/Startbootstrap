@@ -1,0 +1,70 @@
+#team
+    background-color: rgb(248, 249, 250)
+    h1
+        font-weight: 700
+        font-size: 45px
+    h3
+        font-style: italic
+        font-size: 20px
+        color: #6c757d
+        margin: 20px 0 60px
+    .textbox
+        text-align: center
+        .imgbox
+            img
+                border-radius: 50%
+                border: 7px solid #e9ecef
+                width: 66%
+        .minibox
+            h2
+                font-size: 700
+                font-size: 30px
+                margin: 20px 0 10px
+            h4
+                font-size: 20px
+                color: #6c757d
+        ul
+            display: flex
+            justify-content: center
+            margin: 20px 0 60px
+            li
+                background-color: #000
+                border-radius: 50%
+                width: 12%
+                padding: 13px
+                margin-left: 15px
+                cursor: pointer
+                &:hover
+                    border: 4px solid #696a6b
+                    width: 12%
+                    padding: 10px
+                i
+                    cursor: pointer
+                    color: #ffff
+                    font-size: 15px
+    .box
+        p
+            color: #6c757d
+            font-size: 20px
+            line-height: 1.4
+    .wid
+        width: 714px
+
+    @media screen and ( max-width: 992px )
+        h1,h3
+            margin-left: 26px
+        .textbox
+            ul
+                li
+                    width: 20%
+                    padding: 15px
+    @media screen and ( max-width: 768px )
+        .textbox
+            width: 300px
+            margin-left: 26%
+            ul
+                li
+                    width: 12%
+                    padding: 10px
+                    i
+                        font-size: 13px

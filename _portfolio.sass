@@ -1,0 +1,65 @@
+#portfolio
+    background-color: rgb(248, 249, 250)
+    .box
+        h1
+            font-weight: 700
+            font-size: 45px
+        h3
+            font-size: 18px
+            color: #6c757d
+            font-style: italic
+            margin: 20px 0 60px
+    .textbox
+        text-align: center
+        background-color: #ffff
+        margin-bottom: 25px
+        .imgbox
+            img
+                cursor: pointer
+            .plusbox
+                background-color: rgba(255, 200, 0, 0.9)
+                position: absolute
+                width: 26%
+                height: 40%
+                cursor: pointer
+                opacity: 0
+                transition: 0.5s
+                &:hover
+                    opacity: 1
+                h5
+                    font-size: 140px
+                    color: #ffff
+                    margin-top: 55px
+                    cursor: pointer
+        .minibox
+            padding: 30px
+            h2
+                font-weight: 700
+                font-size: 28px
+                margin-bottom: 12px
+            h4
+                font-size: 18px
+                font-style: italic
+                color: #6c757d
+
+    @media screen and ( max-width: 992px )
+        .box
+            h1
+                font-size: 50px
+            h3
+                font-size: 24px
+        .textbox
+            width: 337px
+            position: relative
+            left: 9%
+            .minibox
+                h2
+                    font-size: 33px
+                h4
+                    font-size: 24px
+    @media screen and ( max-width: 768px )
+        .box
+            margin-left: 0
+        .textbox
+            position: relative
+            left: 20%
