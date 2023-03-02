@@ -299,7 +299,6 @@ header .menu nav a:hover {
   width: 334px;
 }
 #about .box {
-  display: flex;
   margin-bottom: 100px;
 }
 #about .box .minibox h2, #about .box .minibox h5 {
