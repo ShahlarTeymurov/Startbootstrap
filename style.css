@@ -444,8 +444,6 @@ header .menu nav a:hover {
 @media screen and (max-width: 576px) {
   #partner .textbox {
     flex-direction: column;
-    position: relative;
-    left: 10%;
   }
   #partner .textbox .imgbox {
     margin-bottom: 30px;
