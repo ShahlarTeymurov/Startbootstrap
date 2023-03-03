@@ -461,23 +461,12 @@ header .menu nav a:hover {
   cursor: pointer;
 }
 @media screen and (max-width: 992px) {
-  #partner .textbox {
-    position: relative;
-    left: 12%;
-  }
   #partner .textbox .imgbox {
     margin-right: 20px;
   }
 }
-@media screen and (max-width: 768px) {
-  #partner .textbox {
-    position: relative;
-    left: 0;
-  }
-}
 @media screen and (max-width: 576px) {
   #partner .textbox {
-    display: flex;
     flex-direction: column;
     position: relative;
     left: 10%;
