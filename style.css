@@ -131,11 +131,8 @@ header .menu nav a:hover {
 }
 #services .textbox .icon {
   position: relative;
-  left: 120px;
   background-color: #ffc800;
   border-radius: 50%;
-  padding: 25px;
-  width: 139px;
 }
 #services .textbox .icon i {
   font-size: 70px;
@@ -151,22 +148,13 @@ header .menu nav a:hover {
   margin: 15px 0 20px;
 }
 #services .textbox .minibox p {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 1.75;
   color: #6c757d;
-}
-#services .left {
-  width: 361px;
-}
-#services .wid {
-  width: 300px;
 }
 @media screen and (max-width: 1200px) {
   #services .textbox .icon {
     left: 85px;
-  }
-  #services .textbox .minibox p, #services .textbox .minibox h2 {
-    margin-right: 94px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -182,9 +170,6 @@ header .menu nav a:hover {
   #services .textbox .icon i {
     font-size: 54px;
   }
-  #services .left {
-    width: 287px;
-  }
 }
 @media screen and (max-width: 768px) {
   #services .textbox {
@@ -192,15 +177,6 @@ header .menu nav a:hover {
   }
   #services .textbox .minibox {
     margin-left: -77px;
-  }
-  #services .textbox .minibox p, #services .textbox .minibox h2 {
-    margin-right: 128px;
-  }
-  #services .wid {
-    width: 420px;
-  }
-  #services .left {
-    width: 488px;
   }
 }
 
