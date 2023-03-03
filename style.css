@@ -483,8 +483,7 @@ header .menu nav a:hover {
 }
 #contact .text textarea {
   padding: 20px 0 0 20px;
-  background-color: white;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
   border-radius: 5px;
   opacity: 0.9;
