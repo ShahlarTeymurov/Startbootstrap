@@ -128,28 +128,31 @@ header .menu nav a:hover {
 }
 #services .textbox {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 #services .textbox .icon {
-  position: relative;
   background-color: #ffc800;
   border-radius: 50%;
   padding: 27px;
   width: 133px;
+  height: 108px;
 }
 #services .textbox .icon i {
   font-size: 60px;
   color: white;
 }
-#services .textbox .minibox {
+#services .minibox {
+  text-align: center;
   margin-left: 7px;
 }
-#services .textbox .minibox h2 {
+#services .minibox h2 {
   font-size: 27px;
   font-weight: 700;
   color: #000;
   margin: 15px 0 20px;
 }
-#services .textbox .minibox p {
+#services .minibox p {
   font-size: 17px;
   line-height: 1.75;
   color: #6c757d;
