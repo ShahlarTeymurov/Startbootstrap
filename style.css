@@ -133,9 +133,11 @@ header .menu nav a:hover {
   position: relative;
   background-color: #ffc800;
   border-radius: 50%;
+  padding: 27px;
+  width: 133px;
 }
 #services .textbox .icon i {
-  font-size: 70px;
+  font-size: 60px;
   color: white;
 }
 #services .textbox .minibox {
