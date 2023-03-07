@@ -112,39 +112,31 @@ header .menu nav a:hover {
   }
 }
 
-#services .box {
-  text-align: center;
-}
-#services .box h1 {
+#services .textbox h1 {
   font-size: 45px;
   font-weight: 700;
   color: #000;
 }
-#services .box h3 {
+#services .textbox h3 {
   font-size: 20px;
   color: #6c757d;
   font-style: italic;
   margin: 20px 0 40px;
 }
-#services .textbox {
-  text-align: center;
+#services .box {
   display: flex;
   justify-content: center;
 }
-#services .textbox .icon {
+#services .box .icon {
   background-color: #ffc800;
   border-radius: 50%;
   padding: 27px;
   width: 133px;
   height: 108px;
 }
-#services .textbox .icon i {
+#services .box .icon i {
   font-size: 60px;
   color: white;
-}
-#services .minibox {
-  text-align: center;
-  margin-left: 7px;
 }
 #services .minibox h2 {
   font-size: 27px;
@@ -156,32 +148,11 @@ header .menu nav a:hover {
   font-size: 17px;
   line-height: 1.75;
   color: #6c757d;
-}
-@media screen and (max-width: 1200px) {
-  #services .textbox .icon {
-    left: 85px;
-  }
-}
-@media screen and (max-width: 992px) {
-  #services .textbox {
-    width: 100%;
-    margin-left: 20px;
-  }
-  #services .textbox .icon {
-    width: 51%;
-    padding: 21px;
-    left: 47px;
-  }
-  #services .textbox .icon i {
-    font-size: 54px;
-  }
+  margin: 20px;
 }
 @media screen and (max-width: 768px) {
-  #services .textbox {
-    padding: 0 54px 50px 144px;
-  }
-  #services .textbox .minibox {
-    margin-left: -77px;
+  #services .minibox p {
+    margin-bottom: 20px;
   }
 }
 
