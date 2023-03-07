@@ -169,15 +169,15 @@ header .menu nav a:hover {
   font-style: italic;
   margin: 20px 0 60px;
 }
-#portfolio .textbox {
+#portfolio .minibox {
   text-align: center;
   background-color: white;
   margin-bottom: 25px;
 }
-#portfolio .textbox .imgbox img {
+#portfolio .minibox .imgbox img {
   cursor: pointer;
 }
-#portfolio .textbox .imgbox .plusbox {
+#portfolio .minibox .imgbox .plusbox {
   background-color: rgba(255, 200, 0, 0.9);
   position: absolute;
   width: 357px;
@@ -186,24 +186,21 @@ header .menu nav a:hover {
   opacity: 0;
   transition: 0.5s;
 }
-#portfolio .textbox .imgbox .plusbox:hover {
+#portfolio .minibox .imgbox .plusbox:hover {
   opacity: 1;
 }
-#portfolio .textbox .imgbox .plusbox h5 {
+#portfolio .minibox .imgbox .plusbox h5 {
   font-size: 140px;
   color: white;
   margin-top: 55px;
   cursor: pointer;
 }
-#portfolio .textbox .minibox {
-  padding: 30px;
-}
-#portfolio .textbox .minibox h2 {
+#portfolio .minibox h2 {
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 12px;
 }
-#portfolio .textbox .minibox h4 {
+#portfolio .minibox h4 {
   font-size: 18px;
   font-style: italic;
   color: #6c757d;
