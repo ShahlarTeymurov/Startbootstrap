@@ -208,34 +208,6 @@ header .menu nav a:hover {
   font-style: italic;
   color: #6c757d;
 }
-@media screen and (max-width: 992px) {
-  #portfolio .box h1 {
-    font-size: 50px;
-  }
-  #portfolio .box h3 {
-    font-size: 24px;
-  }
-  #portfolio .textbox {
-    width: 337px;
-    position: relative;
-    left: 9%;
-  }
-  #portfolio .textbox .minibox h2 {
-    font-size: 33px;
-  }
-  #portfolio .textbox .minibox h4 {
-    font-size: 24px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #portfolio .box {
-    margin-left: 0;
-  }
-  #portfolio .textbox {
-    position: relative;
-    left: 20%;
-  }
-}
 
 #about h1 {
   font-weight: 700;
