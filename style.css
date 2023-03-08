@@ -361,7 +361,6 @@ header .menu nav a:hover {
 @media screen and (max-width: 768px) {
   #team .textbox {
     width: 300px;
-    margin-left: 26%;
   }
   #team .textbox ul li {
     width: 12%;
