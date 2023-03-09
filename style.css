@@ -324,16 +324,16 @@ header .menu nav a:hover {
 }
 #team .textbox ul {
   display: flex;
-  justify-content: center;
   margin: 20px 0 60px;
 }
 #team .textbox ul li {
   background-color: #000;
   border-radius: 50%;
-  width: 25%;
+  width: 40px;
   padding: 12px;
   margin-left: 15px;
   cursor: pointer;
+  opacity: 0.8;
 }
 #team .textbox ul li:hover {
   border: 4px solid #696a6b;
