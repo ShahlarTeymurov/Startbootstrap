@@ -233,17 +233,17 @@ header .menu nav a:hover {
 }
 #about .box .imgbox {
   margin-left: 38px;
+  width: 138px;
 }
 #about .box .imgbox img {
   border: 7px solid #e9ecef;
   border-radius: 50%;
-  width: 75%;
 }
 #about .left {
   margin-left: 110px;
 }
 #about .right {
-  margin-right: 80px;
+  margin: 0 120px 0 37px;
 }
 #about .textbox {
   border: 7px solid #e9ecef;
@@ -261,7 +261,7 @@ header .menu nav a:hover {
 }
 @media screen and (max-width: 1200px) {
   #about .textbox {
-    width: 16%;
+    width: 150px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -269,7 +269,7 @@ header .menu nav a:hover {
     margin-left: 80px;
   }
   #about .textbox {
-    width: 20%;
+    width: 140px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -283,7 +283,7 @@ header .menu nav a:hover {
     margin-right: 0;
   }
   #about .textbox {
-    width: 24%;
+    width: 125px;
   }
 }
 
