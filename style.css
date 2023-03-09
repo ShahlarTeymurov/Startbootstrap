@@ -19,7 +19,6 @@ section {
 }
 #studio .textbox {
   transform: translate(12px, -135px);
-  bottom: 120px;
   margin-top: 307px;
 }
 #studio .textbox h1, #studio .textbox h2, #studio .textbox h3 {
@@ -348,27 +347,6 @@ header .menu nav a:hover {
 }
 #team .wid {
   width: 714px;
-}
-@media screen and (max-width: 992px) {
-  #team h1, #team h3 {
-    margin-left: 26px;
-  }
-  #team .textbox ul li {
-    width: 20%;
-    padding: 15px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #team .textbox {
-    width: 300px;
-  }
-  #team .textbox ul li {
-    width: 12%;
-    padding: 10px;
-  }
-  #team .textbox ul li i {
-    font-size: 13px;
-  }
 }
 
 #partner {
