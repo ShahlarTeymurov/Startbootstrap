@@ -302,11 +302,16 @@ header .menu nav a:hover {
 }
 #team .textbox {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#team .textbox .imgbox {
+  width: 200px;
 }
 #team .textbox .imgbox img {
   border-radius: 50%;
   border: 7px solid #e9ecef;
-  width: 66%;
 }
 #team .textbox .minibox h2 {
   font-size: 700;
@@ -325,8 +330,8 @@ header .menu nav a:hover {
 #team .textbox ul li {
   background-color: #000;
   border-radius: 50%;
-  width: 12%;
-  padding: 13px;
+  width: 25%;
+  padding: 12px;
   margin-left: 15px;
   cursor: pointer;
 }
