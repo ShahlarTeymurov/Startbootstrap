@@ -1,7 +1,8 @@
 #contact
     background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png)
-    background-repeat: no-repeat
-    background-size: cover
+    //background-repeat: no-repeat
+    //background-size: cover
+    background-position: center center
     background-color: #000
     opacity: 0.9
     h1
@@ -14,23 +15,26 @@
         color: #6c757d
         margin: 20px 0 60px
     .add
-        border-radius: 5px
+        display: flex
+        flex-direction: column
+        margin-top: 44px
         input
             background-color: #ffff
-            margin-bottom: 23px
-            border: 1px solid #ced4da
-            width: 535px
-            height: 60px
+            margin: 14px 0
+            padding: 20px 20px
             font-size: 20px
             font-weight: 700
             opacity: 0.9
     .text
+        display: flex
+        margin-top: 55px
+        font-size: 20px
         textarea
-            padding: 20px 0 0 20px
-            font-size: 19px
+            padding: 18px
             font-weight: 700
             border-radius: 5px
             opacity: 0.9
+            color: #a1a1a1
     .btn
         padding: 20px 60px
         background-color: #ffc800
@@ -41,31 +45,4 @@
             font-weight: 600
             color: #ffff
 
-    @media screen and ( max-width: 1200px )
-        .add
-            input
-                width: 455px
-        .text
-            textarea
-                max-width: 490px
-    @media screen and ( max-width: 992px )
-        .add
-            input
-                width: 337px
-        .text
-            textarea
-                max-width: 408px
-    @media screen and ( max-width: 768px )
-        .add
-            input
-                width: 514px
-        .text
-            textarea
-                max-width: 517px
-    @media screen and ( max-width: 576px )
-        .add
-            input
-                width: 532px
-        .text
-            textarea
-                max-width: 534px
+    

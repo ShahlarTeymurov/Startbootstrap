@@ -379,8 +379,7 @@ header .menu nav a:hover {
 
 #contact {
   background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center center;
   background-color: #000;
   opacity: 0.9;
 }
@@ -396,24 +395,29 @@ header .menu nav a:hover {
   margin: 20px 0 60px;
 }
 #contact .add {
-  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
 }
 #contact .add input {
   background-color: white;
-  margin-bottom: 23px;
-  border: 1px solid #ced4da;
-  width: 535px;
-  height: 60px;
+  margin: 14px 0;
+  padding: 20px 20px;
   font-size: 20px;
   font-weight: 700;
   opacity: 0.9;
 }
+#contact .text {
+  display: flex;
+  margin-top: 55px;
+  font-size: 20px;
+}
 #contact .text textarea {
-  padding: 20px 0 0 20px;
-  font-size: 19px;
+  padding: 18px;
   font-weight: 700;
   border-radius: 5px;
   opacity: 0.9;
+  color: #a1a1a1;
 }
 #contact .btn {
   padding: 20px 60px;
@@ -425,38 +429,6 @@ header .menu nav a:hover {
   font-size: 20px;
   font-weight: 600;
   color: white;
-}
-@media screen and (max-width: 1200px) {
-  #contact .add input {
-    width: 455px;
-  }
-  #contact .text textarea {
-    max-width: 490px;
-  }
-}
-@media screen and (max-width: 992px) {
-  #contact .add input {
-    width: 337px;
-  }
-  #contact .text textarea {
-    max-width: 408px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #contact .add input {
-    width: 514px;
-  }
-  #contact .text textarea {
-    max-width: 517px;
-  }
-}
-@media screen and (max-width: 576px) {
-  #contact .add input {
-    width: 532px;
-  }
-  #contact .text textarea {
-    max-width: 534px;
-  }
 }
 
 footer h1 {
