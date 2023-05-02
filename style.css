@@ -223,7 +223,7 @@ header .menu nav a:hover {
 }
 #about h3 {
   font-style: italic;
-  font-size: 20px;
+  font-size: 17px;
   color: #6c757d;
   margin: 20px 0 60px;
 }
@@ -240,7 +240,7 @@ header .menu nav a:hover {
 }
 #about .box .minibox p {
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 15px;
   color: #6c757d;
 }
 #about .box .imgbox {
@@ -260,8 +260,8 @@ header .menu nav a:hover {
 #about .textbox {
   border: 7px solid #e9ecef;
   border-radius: 50%;
-  width: 15%;
-  padding: 4%;
+  width: 153px;
+  padding: 3%;
   background-color: #ffc800;
   margin-top: 40px;
 }
