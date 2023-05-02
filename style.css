@@ -129,9 +129,9 @@ header .menu nav a:hover {
 #services .box .icon {
   background-color: #ffc800;
   border-radius: 50%;
-  padding: 27px;
-  width: 133px;
-  height: 108px;
+  padding: 25px 0;
+  width: 110px;
+  height: 110px;
 }
 #services .box .icon i {
   font-size: 60px;
