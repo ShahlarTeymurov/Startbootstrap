@@ -175,7 +175,6 @@ header .menu nav a:hover {
 }
 #portfolio .minibox .imgbox {
   position: relative;
-  bottom: 10px;
 }
 #portfolio .minibox .imgbox img {
   cursor: pointer;
@@ -212,7 +211,6 @@ header .menu nav a:hover {
   color: #6c757d;
   padding-bottom: 24px;
 }
-
 #about h1 {
   font-weight: 700;
   font-size: 45px;
