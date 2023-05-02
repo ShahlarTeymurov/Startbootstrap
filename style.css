@@ -175,6 +175,7 @@ header .menu nav a:hover {
 }
 #portfolio .minibox .imgbox {
   position: relative;
+  bottom: 10px;
 }
 #portfolio .minibox .imgbox img {
   cursor: pointer;
@@ -202,12 +203,14 @@ header .menu nav a:hover {
 #portfolio .minibox h2 {
   font-weight: 700;
   font-size: 28px;
-  margin-bottom: 12px;
+  margin-bottom: 7px;
+  padding-top: 15px;
 }
 #portfolio .minibox h4 {
   font-size: 18px;
   font-style: italic;
   color: #6c757d;
+  padding-bottom: 24px;
 }
 
 #about h1 {
