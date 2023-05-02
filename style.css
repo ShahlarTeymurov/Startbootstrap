@@ -211,6 +211,27 @@ header .menu nav a:hover {
   color: #6c757d;
   padding-bottom: 24px;
 }
+@media screen and (max-width: 768px) {
+  #portfolio .minibox {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  #portfolio .minibox .imgbox {
+    position: relative;
+  }
+  #portfolio .minibox .imgbox .plusbox {
+    background-color: rgba(255, 200, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #portfolio .minibox .imgbox .plusbox h5 {
+    padding: 10%;
+  }
+}
+
 #about h1 {
   font-weight: 700;
   font-size: 45px;
