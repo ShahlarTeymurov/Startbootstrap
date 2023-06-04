@@ -301,6 +301,11 @@ header .menu nav a:hover {
     font-size: 16px;
   }
 }
+@media screen and (max-width: 500px) {
+  #about .textbox {
+    width: 96px;
+  }
+}
 
 #team {
   background-color: rgb(248, 249, 250);
