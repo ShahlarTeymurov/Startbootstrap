@@ -496,27 +496,8 @@ footer h2, footer h3 {
 footer h2 {
   margin-right: 17px;
 }
-@media screen and (max-width: 992px) {
-  footer ul li {
-    width: 15%;
-  }
-}
 @media screen and (max-width: 768px) {
-  footer h1 {
-    margin-top: 25px;
-    margin-left: 32%;
-  }
-  footer ul {
-    margin: 16px 0;
-  }
-  footer ul li {
-    width: 7%;
-    padding: 11px;
-  }
-  footer ul li i {
-    font-size: 13px;
-  }
-  footer h3 {
-    margin-right: 30%;
+  footer {
+    padding-top: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
