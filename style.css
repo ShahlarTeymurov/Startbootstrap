@@ -197,6 +197,9 @@ header .menu nav a:hover {
 #portfolio .minibox .imgbox .icon:hover {
   opacity: 1;
 }
+#portfolio .minibox .imgbox .icon:hover i {
+  cursor: pointer;
+}
 #portfolio .minibox h2 {
   font-weight: 700;
   font-size: 28px;
