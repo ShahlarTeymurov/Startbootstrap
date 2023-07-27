@@ -228,11 +228,12 @@ header .menu nav a:hover {
   color: #6c757d;
   margin: 20px 0 60px;
 }
-#about .wid {
-  width: 334px;
-}
 #about .box {
   margin-bottom: 100px;
+}
+#about .box .minibox {
+  margin: 0 24px;
+  width: 39%;
 }
 #about .box .minibox h2, #about .box .minibox h5 {
   font-weight: 700;
@@ -241,22 +242,16 @@ header .menu nav a:hover {
 }
 #about .box .minibox p {
   line-height: 1.5;
-  font-size: 15px;
+  font-size: 21px;
   color: #6c757d;
 }
 #about .box .imgbox {
   margin-left: 38px;
-  width: 138px;
-}
-#about .box .imgbox img {
-  border: 7px solid #e9ecef;
-  border-radius: 50%;
-}
-#about .left {
-  margin-left: 110px;
-}
-#about .right {
-  margin: 0 120px 0 37px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: 5px solid #e4e3e3;
+  overflow: hidden;
 }
 #about .textbox {
   border: 7px solid #e9ecef;
