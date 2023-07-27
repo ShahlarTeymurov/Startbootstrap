@@ -285,9 +285,20 @@ header .menu nav a:hover {
 }
 @media screen and (max-width: 576px) {
   #about .box {
+    display: flex;
+    justify-content: flex-end;
     flex-direction: row-reverse;
     width: 100%;
     text-align: end;
+  }
+  #about .box .imgbox {
+    width: 100px;
+    height: 100px;
+  }
+  #about .wid {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 }
 
