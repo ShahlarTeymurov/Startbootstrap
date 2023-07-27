@@ -274,17 +274,11 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 992px) {
-  #about h1, #about h3 {
-    margin-left: 80px;
-  }
   #about .box .minibox {
     width: 30%;
   }
 }
 @media screen and (max-width: 768px) {
-  #about h1, #about h3 {
-    margin-left: 0;
-  }
   #about .box .minibox {
     width: 24%;
   }
