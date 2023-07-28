@@ -232,6 +232,7 @@ header .menu nav a:hover {
   margin-bottom: 100px;
 }
 #about .box .minibox {
+  text-align: end;
   margin: 0 24px;
   width: 39%;
 }
@@ -246,12 +247,14 @@ header .menu nav a:hover {
   color: #6c757d;
 }
 #about .box .imgbox {
-  margin-left: 38px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   border: 5px solid #e4e3e3;
   overflow: hidden;
+}
+#about .wid .minibox {
+  text-align: start;
 }
 #about .textbox {
   border: 7px solid #e9ecef;
@@ -275,12 +278,12 @@ header .menu nav a:hover {
 }
 @media screen and (max-width: 992px) {
   #about .box .minibox {
-    width: 30%;
+    width: 32%;
   }
 }
 @media screen and (max-width: 768px) {
   #about .box .minibox {
-    width: 24%;
+    width: 27%;
   }
 }
 @media screen and (max-width: 576px) {
@@ -291,14 +294,27 @@ header .menu nav a:hover {
     width: 100%;
     text-align: end;
   }
+  #about .box .minibox {
+    width: 100%;
+    text-align: start;
+  }
   #about .box .imgbox {
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 60px;
   }
   #about .wid {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+  }
+  #about .textbox {
+    margin-left: 5px;
+    width: 82px;
+    height: 82px;
+    padding: 10px;
+  }
+  #about .textbox h6 {
+    font-size: 13px;
   }
 }
 

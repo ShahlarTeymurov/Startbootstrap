@@ -10,6 +10,7 @@
     .box
         margin-bottom: 100px
         .minibox
+            text-align: end
             margin: 0 24px
             width: 39%
             h2,h5
@@ -21,12 +22,15 @@
                 font-size: 21px
                 color: #6c757d
         .imgbox
-            margin-left: 38px
+            //margin-left: 38px
             width: 150px
             height: 150px
             border-radius: 50%
             border: 5px solid #e4e3e3
             overflow: hidden
+    .wid
+        .minibox
+            text-align: start
     .textbox
         border: 7px solid #e9ecef
         border-radius: 50%
@@ -48,11 +52,11 @@
     @media screen and ( max-width: 992px )
         .box
             .minibox
-                width: 30%
+                width: 32%
     @media screen and ( max-width: 768px )
         .box
             .minibox
-                width: 24%
+                width: 27%
     @media screen and ( max-width: 576px )
         .box
             display: flex
@@ -60,10 +64,20 @@
             flex-direction: row-reverse
             width: 100%
             text-align: end
+            .minibox
+                width: 100%
+                text-align: start
             .imgbox
-                width: 100px
-                height: 100px
+                width: 85px
+                height: 60px
         .wid
             display: flex
             flex-direction: row
             justify-content: flex-end
+        .textbox
+            margin-left: 5px
+            width: 82px
+            height: 82px
+            padding: 10px
+            h6
+                font-size: 13px
